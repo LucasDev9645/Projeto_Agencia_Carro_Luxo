@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #dec908;
+}
+
+.nav .nav-link.active {
+  background-color: #ffffff;
+  color: #3e3e3e;
+}
+
+.nav .nav-link,
+.navbar-brand {
+  color: #3e3e3e;
+}
+
+.navbar-brand {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+}
