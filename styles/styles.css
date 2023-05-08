@@ -24,14 +24,14 @@ body {
   font-weight: 600;
 }
 
-.imagem {
-  max-width: 500px;
-}
-
 .section-title {
   font-family: "EB Garamond", serif;
 }
 
-.imagem-carousel {
-  max-width: 100%;
+.background-about-agency {
+  background-color: #fffacf;
+}
+
+.text-color {
+  color: #dec908;
 }
