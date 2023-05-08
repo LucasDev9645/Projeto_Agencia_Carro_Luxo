@@ -36,11 +36,24 @@ body {
   color: #dec908;
 }
 
-.nav-carros .nav-link.active {
+.nav-carros .nav-link.active,
+#contato button {
   background-color: #dec908;
   color: #3e3e3e;
 }
 
 .nav-carros .nav-link:hover {
   color: #3e3e3e;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
 }

@@ -37,7 +37,7 @@
               Nossos Veículos</a>
           </li>
           <li class="nav-item fw-bold">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="#contato">
               <i class="bi bi-telephone me-1"></i>
               Contato</a>
           </li>
@@ -46,7 +46,7 @@
     </div>
   </header>
 
-  <div data-bs-spy='scroll' data-bs-target='#header'>
+  <div data-bs-spy='scroll' data-bs-target='#header' data-bs-smooth-scroll="true">
     <section id="sobre-agencia" class="container">
       <div class="carousel slide" data-bs-ride="carousel" id="carousel-btns">
         <div class="carousel-inner">
@@ -72,12 +72,12 @@
           <button type="button" data-bs-target="#carousel-btns" data-bs-slide-to="2"></button>
         </div>
       </div>
-      <div class=" container pt-5 pb-5">
+      <div class=" container pt-4 pb-4">
         <div class="row">
           <div class="col-md-5">
             <img class="d-block w-100 rounded" src="./img/img-carousel-3.jpg" alt="">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 mt-3 mt-md-0">
             <h2 class="section-title">Sobre a <span class="text-color">Nossa Agência</span></h2>
             <p>Na nossa agência de carros luxuosos, oferecemos uma experiência
               excepcionalmente refinada para os amantes de automóveis de alto padrão.
@@ -92,16 +92,16 @@
               experimentar a sensação de dirigir um carro de luxo.
             </p>
             <ul>
-              <li>Experiência imersiva</li>
-              <li>Atendimento personalizado</li>
-              <li>Ambiente sofisticado</li>
+              <li class="fst-italic">Experiência imersiva</li>
+              <li class="fst-italic">Atendimento personalizado</li>
+              <li class="fst-italic">Ambiente sofisticado</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="eventos" class="pt-4 pb-4">
+    <section id="eventos" class="pb-4">
       <div class="container">
         <div class="row">
           <h2 class="section-title text-center">Os <span class="text-color">Nossos Eventos</span></h2>
@@ -141,7 +141,7 @@
     <section id="nossos-veiculos">
       <div class="container">
         <div class="row">
-          <h2 class="section-title text-center mb-5">Nossos <span class="text-color">Carros</span></h2>
+          <h2 class="section-title text-center mb-4">Nossos <span class="text-color">Carros</span></h2>
         </div>
         <div class="row">
           <aside class="col-md-2">
@@ -152,7 +152,7 @@
               <button type="button" data-bs-toggle="tab" data-bs-target="#porsche" class="nav-link text-color fw-bold text-start">
                 Porsche
               </button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#mclarem" class="nav-link text-color fw-bold text-start">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#mclarem" class="nav-link text-color fw-bold text-start mb-3">
                 McLaren
               </button>
             </nav>
@@ -264,6 +264,71 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="pt-2 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center"><span class="text-color">Nosso</span> Contato</h2>
+        </div>
+        <div class="row pt-3">
+          <div class="col-md-7 mb-5">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-color">Seu nome</label>
+                <input type="text" id="nome" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-color">Seu e-mail</label>
+                <input type="text" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-color">Seu telefone (opcional)</label>
+                <input type="tel" id="telefone" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-color">Seu mensagem</label>
+                <textarea class="form-control" id="mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-color">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes Sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text-color"></i>
+                  </a>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#">
+                    <i class="bi bi-instagram text-color"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-color"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-color">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p class="fst-italic fw-bold">
+                Rua Html nº 1324, Bairro Bootstrap - Minas Gerais - MG
+              </p>
             </div>
           </div>
         </div>
