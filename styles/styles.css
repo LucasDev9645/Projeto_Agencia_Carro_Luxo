@@ -8,12 +8,12 @@ body {
   background-color: #dec908;
 }
 
-.nav .nav-link.active {
+#header .nav .nav-link.active {
   background-color: #ffffff;
   color: #3e3e3e;
 }
 
-.nav .nav-link,
+#header .nav .nav-link,
 .navbar-brand {
   color: #3e3e3e;
 }
@@ -34,4 +34,13 @@ body {
 
 .text-color {
   color: #dec908;
+}
+
+.nav-carros .nav-link.active {
+  background-color: #dec908;
+  color: #3e3e3e;
+}
+
+.nav-carros .nav-link:hover {
+  color: #3e3e3e;
 }
